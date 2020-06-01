@@ -2,20 +2,21 @@
 A tracker to visualize and analyze your happiness over time and the reasons behind it. Created with React, Node.js and MongoDB.
 
 ## Install
-First, install all dependencies. There are two package.json files, one for frontend and one for backend.
+First, install all dependencies. There are two package.json files, one for Frontend and one for Backend.
 
-First install frontend dependencies.
+Install Frontend dependencies.
 ```
 yarn install
 ```
 
-Then install backend dependencies
+Install Backend dependencies in the client folder.
 ```
 cd client 
 yarn install
 ```
 
-Lastly, make sure mongoDB is installed. Add your database in the .env_sample file, and rename the file to .env (for example: 'mongodb://127.0.0.1:27017')
+Lastly, add your database in the .env_sample file, and rename the file to .env 
+Example: 'mongodb://127.0.0.1:27017'
 ```
 MONGO_DB="YOUR_DATABASE_HERE"
 ```
