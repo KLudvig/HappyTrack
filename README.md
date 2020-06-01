@@ -27,11 +27,8 @@ Start the server. Open up the terminal, then type in:
 ```bash
 nodemon server.js
 ```
-Then start React. Open up a new terminal window. Go to the client folder:
+Then start React. Open up a new terminal window. Go to the client folder and then start:
 ```
 cd client
-```
-Then start:
-```
 yarn start
 ```
