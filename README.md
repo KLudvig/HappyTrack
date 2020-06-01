@@ -15,7 +15,7 @@ cd client
 yarn install
 ```
 
-Lastly, add your database in the .env_sample file, and rename the file to .env (example: 'mongodb://127.0.0.1:27017')
+Lastly, add your database in the .env_sample file, and rename the file to .env (example: 'mongodb://127.0.0.1:27017/happyTrack')
 ```
 MONGO_DB="YOUR_DATABASE_HERE"
 ```
