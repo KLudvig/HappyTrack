@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+  background: #40a7b9;  /* fallback for old browsers */
+  background: linear-gradient(to right, #5cada6, #40a7b9);
+  min-height: 100vh;
+  padding: 10px;
+}

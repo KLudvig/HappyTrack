@@ -1,0 +1,41 @@
+.statsContainer {
+    height: 410px;
+}
+.statsBottom {
+    background: #fcffff;;
+    width: 100%;
+    padding-right: 10px;
+    margin-left: -10px;
+    padding-left: 10px;
+    height: 40vh;
+    padding-top: 80px;
+}
+.statsSettings{
+    height: 100px;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 320px;
+}
+.averageMood {
+    margin-top: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    color: #f1f1f1;
+    border-top: 1px solid;
+    width: 105px;
+}
+.settingsTitle {
+    text-align: center;
+    display: block;
+    padding: 15px;
+    color: #333333;
+    font-weight: bold;
+}

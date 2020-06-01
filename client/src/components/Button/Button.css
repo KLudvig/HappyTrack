@@ -1,0 +1,64 @@
+.btn-medium {
+    padding: 14px;
+    width: 200px;
+    border-radius: 70px;
+    background: #00000026;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+.btn-small {
+    -webkit-appearance: none;
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 60px;
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 35px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgb(216, 216, 216);
+    cursor: pointer;
+    font-weight: 600;
+    color: #333333;
+  }
+.btn-green {
+    background: linear-gradient(to right, #5cada6, #40a7b9);
+  }
+.btn-grey {
+    background: #f1f2f2;
+  }
+.btn-grey:hover {
+    background: #a8b7b745;
+  }
+.btn-grey:active {
+    box-shadow: none;
+    color: #9e9e9e;
+  }
+.btn-grey:focus {
+    outline: none;
+  }
+.btn-smallMargin {
+    margin-top: 20px;
+  }
+.btn-bigMargin {
+    margin-top: 80px;
+  }
+.btn-round {
+    width: 47px;
+    height: 47px;
+    background: #3e8d99;
+    color: white;
+    position: absolute;
+    margin-top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50%;
+    border: none;
+}

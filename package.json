@@ -1,0 +1,16 @@
+{
+  "name": "happytrack",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "KLudvig <62187887+KLudvig@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

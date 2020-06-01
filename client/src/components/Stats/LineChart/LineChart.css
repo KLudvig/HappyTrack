@@ -1,0 +1,28 @@
+.smiley-position {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+}
+canvas#myChart {
+  position: absolute;
+  margin-top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 240px;
+}
+.faceTitleStats{
+  padding-top: 70px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
