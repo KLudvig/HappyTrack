@@ -4,19 +4,18 @@ A tracker to visualize and analyze your happiness over time and the reasons behi
 ## Install
 First, install all dependencies. There are two package.json files, one for Frontend and one for Backend.
 
-Install Backend dependencies.
+Install Backend dependencies:
 ```
 yarn install
 ```
 
-Install Fronted dependencies in the client folder.
+Install Fronted dependencies in the client folder:
 ```
 cd client 
 yarn install
 ```
 
-Lastly, add your database in the .env_sample file, and rename the file to .env. 
-Example: 'mongodb://127.0.0.1:27017'
+Lastly, add your database in the .env_sample file, and rename the file to .env (example: 'mongodb://127.0.0.1:27017')
 ```
 MONGO_DB="YOUR_DATABASE_HERE"
 ```
@@ -32,7 +31,7 @@ Then start React. Open up a new terminal window. Go to the client folder:
 ```
 cd client
 ```
-Then start React:
+Then start:
 ```
 yarn start
 ```
